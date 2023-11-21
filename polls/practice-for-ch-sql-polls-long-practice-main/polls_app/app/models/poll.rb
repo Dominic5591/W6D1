@@ -17,6 +17,4 @@ class Poll < ApplicationRecord
         foreign_key: :poll_id, 
         class_name: :Question,
         dependent: :destroy
-
-  
 end
